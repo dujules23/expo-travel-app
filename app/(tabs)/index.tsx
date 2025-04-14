@@ -6,14 +6,22 @@ import {
   TouchableOpacity,
   TextInput,
 } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { Stack } from "expo-router";
 import Colors from "@/constants/Colors";
 import { Ionicons } from "@expo/vector-icons";
 import { useHeaderHeight } from "@react-navigation/elements";
+import CategoryButtons from "@/components/CategoryButtons";
 
 const Page = () => {
   const headerHeight = useHeaderHeight();
+  const [category, setCategory] = useState("All");
+
+  const onCatChanged = (category: string) => {
+    // console.log("Selected Category: ", category);
+    setCategory(category);
+  };
+
   return (
     <>
       <Stack.Screen
@@ -66,6 +74,8 @@ const Page = () => {
             <Ionicons name="options" size={28} />
           </TouchableOpacity>
         </View>
+
+        <CategoryButtons onCategoryChanged={onCatChanged} />
       </View>
     </>
   );
