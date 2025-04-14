@@ -1,4 +1,11 @@
-import { Image, StyleSheet, View, Text, TouchableOpacity } from "react-native";
+import {
+  Image,
+  StyleSheet,
+  View,
+  Text,
+  TouchableOpacity,
+  TextInput,
+} from "react-native";
 import React from "react";
 import { Stack } from "expo-router";
 import Colors from "@/constants/Colors";
@@ -44,6 +51,21 @@ const Page = () => {
       />
       <View style={[styles.container, { paddingTop: headerHeight }]}>
         <Text style={styles.headingTxt}>Explore The Beautiful Word!</Text>
+
+        <View style={styles.searchSectionWrapper}>
+          <View style={styles.searchBar}>
+            <Ionicons
+              name="search"
+              size={18}
+              style={{ marginRight: 5 }}
+              color={Colors.black}
+            />
+            <TextInput placeholder="Search..." />
+          </View>
+          <TouchableOpacity style={styles.filterBtn}>
+            <Ionicons name="options" size={28} />
+          </TouchableOpacity>
+        </View>
       </View>
     </>
   );
@@ -62,5 +84,22 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     color: Colors.black,
     marginTop: 10,
+  },
+  searchSectionWrapper: {
+    flexDirection: "row",
+    marginVertical: 20,
+  },
+  searchBar: {
+    flex: 1,
+    flexDirection: "row",
+    backgroundColor: Colors.white,
+    padding: 16,
+    borderRadius: 10,
+  },
+  filterBtn: {
+    backgroundColor: Colors.primaryColor,
+    padding: 12,
+    borderRadius: 10,
+    marginLeft: 20,
   },
 });
