@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Tropical Paradise Resort",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744771440/pexels-asadphoto-31587592_dxsohz.jpg",
+    "description": "A luxurious resort located on a private island, offering stunning ocean views and top-notch amenities.",
+    "rating": 4.8,
+    "price": "299",
+    "location": "Maldives",
+    "duration": "3",
+    "category": "Luxury"
+  },
+  {
+    "id": 2,
+    "name": "Alpine Chalet Retreat",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744771440/pexels-ryank-19727180_mdm4h2.jpg",
+    "description": "A cozy chalet nestled in the mountains, perfect for a winter getaway with skiing and spa facilities.",
+    "rating": 4.8,
+    "price": "150",
+    "location": "Switzerland",
+    "duration": "5",
+    "category": "Luxury"
+  }
+]
