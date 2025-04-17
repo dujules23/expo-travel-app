@@ -41,7 +41,7 @@ export default function Layout() {
             <View
               style={{
                 backgroundColor: Colors.primaryColor,
-                paddingHorizontal: 16,
+                paddingHorizontal: 4,
                 paddingVertical: 12,
                 borderRadius: 10,
                 height: 50,
