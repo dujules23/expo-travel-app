@@ -8,7 +8,7 @@
     "price": "299",
     "location": "Maldives",
     "duration": "3",
-    "category": "Luxury"
+    "category": "beaches"
   },
   {
     "id": 2,
@@ -19,6 +19,50 @@
     "price": "150",
     "location": "Switzerland",
     "duration": "5",
+    "category": "Luxury"
+  },
+  {
+    "id": 3,
+    "name": "City Escape Hotel",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744845470/pexels-tatiana-fet-420381-1105766_xhrbml.jpg",
+    "description": "A modern hotel located in the heart of the city, offering easy access to shopping, dining, and entertainment.",
+    "rating": 4.1,
+    "price": "85",
+    "location": "New York",
+    "duration": "2",
+    "category": "Luxury"
+  },
+  {
+    "id": 4,
+    "name": "Desert Getaway Resort",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744845596/pexels-diji-aderogba-351053474-31653067_cxdlre.jpg",
+    "description": "A unique resort located in the desert, offering luxury tents and a chance to experience the beauty of the dunes.",
+    "rating": 4.1,
+    "price": "300",
+    "location": "Dubai",
+    "duration": "4",
+    "category": "Luxury"
+  },
+  {
+    "id": 5,
+    "name": "Beachfront Villa",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744845697/pexels-vincent-gerbouin-445991-1174732_dckt9z.jpg",
+    "description": "A stunning villa located right on the beach, perfect for a relaxing getaway with family or friends.",
+    "rating": 4.8,
+    "price": "250",
+    "location": "Bali",
+    "duration": "7",
+    "category": "Luxury"
+  },
+  {
+    "id": 6,
+    "name": "National Park Lodge",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744845803/pexels-robbymccullough-1867601_e53uca.jpg",
+    "description": "A rustic lodge located in a national park, offering outdoor activities like hiking and wildlife watching.",
+    "rating": 4.5,
+    "price": "120",
+    "location": "Yosemite",
+    "duration": "3",
     "category": "Luxury"
   }
 ]
