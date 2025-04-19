@@ -9,21 +9,21 @@
   {
     "id": 2,
     "name": "Happy Tour Planners",
-    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744941043/pexels-taryn-elliott-5405598_qdxpqy.jpg",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1745081366/pexels-earth-photart-2149767641-31682156_x0oa42.jpg",
     "rating": 4.5,
     "reviews": 120
   },
   {
     "id": 3,
     "name": "Royal Tour & Travels",
-    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744941043/pexels-taryn-elliott-5405598_qdxpqy.jpg",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1745081445/pexels-icarus-12341465_payqnm.jpg",
     "rating": 4.5,
     "reviews": 120
   },
   {
     "id": 4,
     "name": "Tours and More",
-    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1744941043/pexels-taryn-elliott-5405598_qdxpqy.jpg",
+    "image": "https://res.cloudinary.com/dufnwtwtz/image/upload/v1745081526/pexels-pixabay-358229_afyiqn.jpg",
     "rating": 4.5,
     "reviews": 120
   }
